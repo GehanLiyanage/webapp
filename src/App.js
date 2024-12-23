@@ -6,9 +6,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h1>My First CI/CD</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Building a CI/CD Pipeline with GitHub Actions for React App Deployment on Azure
         </p>
+        <h3>GEHAN LIYANAGE</h3>
         <a
           className="App-link"
           href="https://reactjs.org"
