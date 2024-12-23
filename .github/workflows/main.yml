@@ -4,13 +4,13 @@ on:
   [push]
 
 env:
-  AZURE_WEBAPP_NAME: WeatherGehan   # set this to your application's name
+  AZURE_WEBAPP_NAME: gehanwebapp   # set this to your application's name
   AZURE_WEBAPP_PACKAGE_PATH: '.' # set this to the path to your web app project, defaults to the repository root
   NODE_VERSION: '18.x'           # set this to the node version to use
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       # Checkout the repo
       - name: Checkout GitHub Action
